@@ -1,0 +1,46 @@
+import React from "react";
+import TextImg from "./TextImg";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import "./about.css";
+
+function About() {
+  const { ref, inView } = useInView({ threshold: 0.2 });
+  const animation = useAnimation();
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        x: 0,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.4
+        }
+      });
+    }
+    if (!inView) {
+      animation.start({ x: -1000 });
+    }
+  }, [inView]);
+  const about1 =
+    "I am an IT student currently pursuing Bachelor's degree from Kirti College Dadar. I am a strong believer of Tech and Obsession of how it forms deep root in our life. Google is my companion I usually Forget things easily and for a developer Internet is everything. But I am a Quick Learner, I grasp things quickly and try to practically implement them. I am a very practical person but theories fascinates me Becauese,''Imagination Is the Only Limitation we have''.";
+  const about2 =
+    "Although I constantly talk about Updating (Humans). I am an all rounder kinda person, you can talk to me about anything, If I put my mind to anything I can develop Interest. I don't exactly know what my passion is maybe I just like trying new things, maybe trying new things is my passion. Apart from Computers I like music (''who dosen't?''). But I mean Like music music, its complicated. I get hard time concentrating on one thing but music Uggg.Abhi main wahi sun raha hu. I don't know Why I am bothering about writing this nobody is going to read it.";
+  return (
+    <div ref={ref} id="about" className="container-fluid about">
+      <motion.h1 animate={animation}>.aboutMe( )</motion.h1>
+
+      <div>
+        <TextImg text={about1} image={require('./images/pras2.jpg').default} cname="row" />
+        <TextImg
+          text={about2}
+          image={require("./images/pras1.jpeg").default}
+          cname="row row2"
+        />
+      </div>
+    </div>
+  );
+}
+
+export default About;
