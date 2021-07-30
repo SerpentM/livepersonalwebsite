@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/livepersonalwebsite/static/css/main.37b8adf0.chunk.css",
-    "main.js": "/livepersonalwebsite/static/js/main.9721e95d.chunk.js",
-    "main.js.map": "/livepersonalwebsite/static/js/main.9721e95d.chunk.js.map",
+    "main.css": "/livepersonalwebsite/static/css/main.d56ac774.chunk.css",
+    "main.js": "/livepersonalwebsite/static/js/main.64956953.chunk.js",
+    "main.js.map": "/livepersonalwebsite/static/js/main.64956953.chunk.js.map",
     "runtime-main.js": "/livepersonalwebsite/static/js/runtime-main.c413d0c2.js",
     "runtime-main.js.map": "/livepersonalwebsite/static/js/runtime-main.c413d0c2.js.map",
-    "static/js/2.7271684a.chunk.js": "/livepersonalwebsite/static/js/2.7271684a.chunk.js",
-    "static/js/2.7271684a.chunk.js.map": "/livepersonalwebsite/static/js/2.7271684a.chunk.js.map",
+    "static/js/2.36f78a5d.chunk.js": "/livepersonalwebsite/static/js/2.36f78a5d.chunk.js",
+    "static/js/2.36f78a5d.chunk.js.map": "/livepersonalwebsite/static/js/2.36f78a5d.chunk.js.map",
     "index.html": "/livepersonalwebsite/index.html",
-    "static/css/main.37b8adf0.chunk.css.map": "/livepersonalwebsite/static/css/main.37b8adf0.chunk.css.map",
-    "static/js/2.7271684a.chunk.js.LICENSE.txt": "/livepersonalwebsite/static/js/2.7271684a.chunk.js.LICENSE.txt",
+    "static/css/main.d56ac774.chunk.css.map": "/livepersonalwebsite/static/css/main.d56ac774.chunk.css.map",
+    "static/js/2.36f78a5d.chunk.js.LICENSE.txt": "/livepersonalwebsite/static/js/2.36f78a5d.chunk.js.LICENSE.txt",
     "static/media/pras1.jpeg": "/livepersonalwebsite/static/media/pras1.e8babcd6.jpeg",
     "static/media/pras2.jpg": "/livepersonalwebsite/static/media/pras2.291045e4.jpg",
-    "static/media/prashant.jpg": "/livepersonalwebsite/static/media/prashant.9062b57f.jpg",
-    "static/media/skull.png": "/livepersonalwebsite/static/media/skull.28a017d6.png"
+    "static/media/prashant.jpg": "/livepersonalwebsite/static/media/prashant.2a40e9fa.jpg",
+    "static/media/skull.png": "/livepersonalwebsite/static/media/skull.1eecc625.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c413d0c2.js",
-    "static/js/2.7271684a.chunk.js",
-    "static/css/main.37b8adf0.chunk.css",
-    "static/js/main.9721e95d.chunk.js"
+    "static/js/2.36f78a5d.chunk.js",
+    "static/css/main.d56ac774.chunk.css",
+    "static/js/main.64956953.chunk.js"
   ]
 }
