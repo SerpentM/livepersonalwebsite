@@ -27,7 +27,7 @@ function Navbar() {
           : "navbar navbar-expand-lg sticky "
       }>
       <a className="navbar-brand" href="#home">
-        <img src={require("./skull.png").default} alt="" />
+        <img src={require("./skull.png").default} alt="serpent_logo" />
       </a>
 
       <button

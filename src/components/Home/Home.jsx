@@ -27,12 +27,11 @@ function Home({ classes }) {
   const imgvariant = {
     hidden: { scale: 0, opacity: 0 },
     visible: {
-      opacity: 1,
       scale: 1,
-      rotate: [3, -3, 3, -3, 2, -2, 0],
+      opacity: 1,
       transition: {
-        rotate: { delay: 5, duration: 3 },
-        default: { delay: 4.5, duration: 1 }
+        delay:3,
+        duration:1
       }
     }
   };
@@ -55,7 +54,7 @@ function Home({ classes }) {
               animate="visible"
               variants={variant2}
               transition={{ delay: 3 }}>
-              A frontend developer{" "}
+              JavaScript Developer
             </motion.span>
           </motion.p>
 
